@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">松鼠睡眠</string>
+    <string name="custom_scene_draft">草稿</string>
+    <string name="bangding_1">取消绑定</string>
+    <string name="saomiao">扫描设备中</string>
+    <string name="sleepdata">睡眠数据</string>
+    <string name="sleepdaizi">型睡眠带子</string>
+    <string name="shensleep">深睡</string>
+    <string name="qiansleep">浅睡</string>
+    <string name="qingsleep">清醒</string>
+    <string name="xingnumber">清醒--次</string>
+    <string name="lvnumber">心率--次/分钟</string>
+    <string name="hxnumber">呼吸率--次/分钟</string>
+    <string name="tdnumber">体动--次</string>
+    <string name="jiankang">健康</string>
+    <string name="userdata">用户信息</string>
+    <string name="insertsb">添加设备</string>
+    <string name="stopsleep">停止睡眠监测</string>
+    <string name="startsleep">开启睡眠监测</string>
+    <string name="jiebangsleep">解绑睡眠带</string>
+    <string name="shezhi">设置</string>
+    <string name="sbname">设备名称</string>
+    <string name="sleepjc">睡眠监测器</string>
+    <string name="sbdianliang">设备电量</string>
+    <string name="huoqudianliang">未获取到电量</string>
+    <string name="sbqingkuang">设备情况</string>
+    <string name="weilianjie">未连接</string>
+    <string name="selecttimedata">实时数据</string>
+    <string name="qingqiuzhong">请求中</string>
+</resources>

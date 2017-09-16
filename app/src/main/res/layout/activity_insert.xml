@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_insert"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen50"
+        android:drawableLeft="@mipmap/timg_1"
+        android:text="用户信息展示"
+        android:textColor="@color/white"
+        android:drawablePadding="@dimen/dimen50"
+        android:gravity="center"
+        android:textSize="@dimen/dimen90"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen130"
+    android:layout_marginBottom="@dimen/dimen50"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+    <TextView
+        android:id="@+id/user_name_labe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen300"
+        android:textSize="@dimen/textSize50"
+        android:text="姓名 :"
+        android:textColor="@color/white"
+
+        />
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize50"
+        android:textColor="@color/white"
+
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/user_gender_labe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize50"
+            android:text="性别 :"
+            android:textColor="@color/white"
+
+            />
+        <TextView
+            android:id="@+id/user_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize50"
+            android:textColor="@color/white"
+
+
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen50"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/user_theroom_labe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/dimen300"
+                android:textSize="@dimen/textSize50"
+                android:text="房间 :"
+                android:textColor="@color/white"
+
+                />
+            <TextView
+                android:id="@+id/user_theroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize50"
+                android:textColor="@color/white"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/user_theroomnumber_labe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize50"
+                android:text="房号 :"
+                android:textColor="@color/white"
+
+                />
+            <TextView
+                android:id="@+id/user_theroomnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize50"
+                android:textColor="@color/white"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/user_institutions_labe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen300"
+                android:textSize="@dimen/textSize50"
+                android:text="机构 :"
+                android:textColor="@color/white"
+
+                />
+            <TextView
+                android:id="@+id/user_institutions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize50"
+                android:textColor="@color/white"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/user_devicenumber_labe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize50"
+                android:text="设备号 :"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/user_devicenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize50"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
